@@ -1,14 +1,17 @@
 <template>
-  <div style="background-color: #B3E6BE;">
+  <div style="background-color: #B3E6BE; z-index: 3; position: sticky; top: 0">
     <div style="padding: 0 10px; display: flex; justify-content: space-between; align-content: center;" class="container">
       <div>
         <img width="100" src="../assets/logo.png" alt="logo" class="image">
       </div>
       <div>
-        <div class="menu">
+        <div v-if="!menu" @click="$emit('openMenu')" class="menu">
           <span class="line"></span>
           <span class="line2"></span>
           <span class="line3"></span>
+        </div>
+        <div v-else @click="$emit('closeMenu')" class="menu" style="padding: 5px">
+          <h2>X</h2>
         </div>
       </div>
     </div>
@@ -17,7 +20,8 @@
 
 <script>
 export default {
-  name: 'HelloWorld'
+  name: 'Nav',
+  props: ['menu']
 }
 </script>
 
@@ -37,6 +41,12 @@ export default {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.menu:hover {
+  background-color: rgba(15, 42, 99, .1);
+  transition: 0.2s;
 }
 .line {
   width: 15px;
