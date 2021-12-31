@@ -5,6 +5,16 @@
 </template>
 
 <style lang="scss">
+@media only screen and (max-width: 760px) {
+  .desktop {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 761px) {
+  .mobile {
+    display: none !important;
+  }
+}
 @font-face {
   font-family: Alpina;
   src: url(./fonts/GT-Alpina-Standard-Thin.ttf);
@@ -25,7 +35,7 @@
 }
 .container {
   max-width: 800px;
-  margin: auto
+  margin: auto;
 }
 .hr {
   width: 100%;
