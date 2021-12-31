@@ -56,12 +56,12 @@
             </ul>
           </div>
         </div>
-        <div style="padding: 10px 30px; max-width: 540px; margin: auto; border-left: 1px solid #0f2a63; border-right: 1px solid #0f2a63; border-radius: 50px">
+        <div style="padding: 10px 30px; text-align: center; max-width: 540px; margin: auto; border-left: 1px solid #0f2a63; border-right: 1px solid #0f2a63; border-radius: 50px">
           IF NO VULNERABILITIES OR ISSUES WERE FOUND AND YOUR CONTRACT IS 100 CORRECT THEN THE AUDIT IS FREE
         </div>
         <div style="max-width: 540px; margin: 50px auto;">
-          <h2 style="margin-bottom: 10px">HOW TO GET STARTED:</h2>
-          <ul style="margin-left: 20px">
+          <h1 style="margin-bottom: 10px">HOW TO GET STARTED:</h1>
+          <ul class="alpina" style="margin-left: 20px">
             <li>link to the deployed smart contract on the testnet/mainnet</li>
             <li>or link to github repo</li>
             <li>or the contracts zipped</li>
