@@ -37,7 +37,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #0f2a63;
-  background-color: #d9dbda;
+  background-color: #B3E6BE;
 }
 .container {
   max-width: 800px;
@@ -55,7 +55,7 @@
   box-sizing: border-box;
 }
 .background {
-  background-image: url(./assets/background.png);
+  background-image: url(./assets/background.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
