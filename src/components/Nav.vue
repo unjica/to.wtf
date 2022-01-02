@@ -2,7 +2,7 @@
   <div style="background-color: #B3E6BE; z-index: 3; position: sticky; top: 0">
     <div style="padding: 0 10px; display: flex; justify-content: space-between; align-content: center;" class="container">
       <div>
-        <img width="100" src="../assets/logo.png" alt="logo" class="image">
+        <img :class="(scrollY < 0.00000001) ? 'image' : 'image scale'" src="../assets/logo.png" alt="logo">
       </div>
       <div style="display: flex; justify-content: center; align-items: center">
         <div v-if="!menu" @click="$emit('openMenu')" class="menu">
@@ -21,7 +21,23 @@
 <script>
 export default {
   name: 'Nav',
-  props: ['menu']
+  props: ['menu'],
+  data () {
+    return {
+      scrollY: 0
+    }
+  },
+  created () {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  unmounted () {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    handleScroll () {
+      this.scrollY = window.scrollY
+    }
+  }
 }
 </script>
 
@@ -29,6 +45,12 @@ export default {
 .image {
   width: 70px;
   margin: 10px 0;
+  transition: 0.4s;
+}
+.scale {
+  width: 40px;
+  margin: 5px 0;
+  transition: 0.4s;
 }
 .menu {
   width: 30px;
