@@ -4,7 +4,7 @@
       <span style="margin: 0 20px">ABOUT US</span>
       <div class=hr></div>
     </div>
-    <div class="hr desktop" style="position: absolute; z-index: 0; transform: translateY(150px)"></div>
+    <div class="hr desktop" style="position: absolute; z-index: 0; transform: translateY(160px)"></div>
     <div class="desktop" style="height: 30px"></div>
     <div class="container" style="padding-top: 20px; margin: 0 auto">
       <div style="position: relative;">
