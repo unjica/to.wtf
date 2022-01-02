@@ -9,7 +9,7 @@
     <div class="container" style="padding-top: 20px; margin: 0 auto">
       <div style="position: relative;">
         <div style="display: flex; align-items: flex-end;">
-          <span class="desktop" style="margin: 0 0 20px 0; width: 110px; text-align: end">ABOUT US</span>
+          <span class="desktop" style="margin: 0 0 20px 0; width: 110px; direction: rtl">ABOUT US</span>
           <h1 class="mobile" style="padding: 20px">BLOCKCHAIN ANS SMART CONTRACTS SOFTWARE DEVELOPMENT</h1>
           <div class="desktop">
             <h1 style="padding-left: 20px;">BLOCKCHAIN ANS SMART</h1>

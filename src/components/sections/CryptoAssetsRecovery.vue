@@ -9,7 +9,7 @@
     <div class="container" style="padding-top: 20px; margin: 0 auto 50px">
       <div style="position: relative">
         <div style="display: flex; align-items: flex-end;">
-          <span class="desktop" style="margin: 0 0 20px 0; width: 110px; text-align: end">
+          <span class="desktop" style="margin: 0 0 20px 0; width: 110px; direction: rtl">
             <div>CRYPTO</div>
             <div>ASSETS</div>
             <div>RECOVERY</div>
