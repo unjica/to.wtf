@@ -5,17 +5,24 @@
     <div class="mobile" style="height: 80px"></div>
     <div>
       <AboutUs id="about_us" />
+      <div class="margin" style="border-radius: 50%; padding: 40px 10px; font-size: 20px; border: solid 1px #0f2a63; display: flex; justify-content: center; align-items: center; margin-top: 50px !important; max-width: 440px; text-align: center">
+        Let's build the smart contracts you need!
+      </div>
+      <div style="margin: auto; width: fit-content; transform: translateY(-0.5px)">
+        <img style="transform: rotate(90deg); width: 30px; margin: 0 auto" src="@/assets/arrow.png" alt="arrow">
+      </div>
       <div style="height: 100px"></div>
       <SmartContractAudit id="smart_contrants_audit" />
+      <CryptoAssetsRecovery id="crypto_assets_recovery" />
+      <BlockchainForensics id="blockchain_forensics" />
+      <NftProjects id="nft_projects" />
+      <Tokenomics id="tokenomics" />
+      <Dao id="dao" />
       <div class="container">
-        <div class="desktop" style="padding: 10px 30px; text-align: center; max-width: 540px; margin: auto; border-left: 1px solid #0f2a63; border-right: 1px solid #0f2a63; border-radius: 50px">
+        <div class="margin" style="padding: 10px 30px; text-align: center; max-width: 540px; border-left: 1px solid #0f2a63; border-right: 1px solid #0f2a63; border-radius: 50px">
           IF NO VULNERABILITIES OR ISSUES WERE FOUND AND YOUR CONTRACT IS 100 CORRECT THEN THE AUDIT IS FREE
         </div>
-        <div class="mobile" style="padding: 10px 30px; text-align: center; margin: 20px; border-left: 1px solid #0f2a63; border-right: 1px solid #0f2a63; border-radius: 50px">
-          IF NO VULNERABILITIES OR ISSUES WERE FOUND AND YOUR CONTRACT IS 100 CORRECT THEN THE AUDIT IS FREE
-        </div>
-        <GetStarted class="mobile" style="margin: 50px 20px" />
-        <GetStarted class="desktop" />
+        <GetStarted class="margin" />
         <FreeQuote style="padding-bottom: 50px" />
       </div>
     </div>
@@ -29,6 +36,11 @@ import GetStarted from '@/components/GetStarted.vue'
 import SmartContractAudit from '@/components/SmartContractAudit.vue'
 import AboutUs from '@/components/AboutUs.vue'
 import Menu from '@/components/Menu.vue'
+import CryptoAssetsRecovery from '@/components/CryptoAssetsRecovery.vue'
+import BlockchainForensics from '@/components/BlockchainForensics.vue'
+import NftProjects from '@/components/NftProjects.vue'
+import Tokenomics from '@/components/Tokenomics.vue'
+import Dao from '@/components/Dao.vue'
 
 export default {
   name: 'Home',
@@ -38,7 +50,12 @@ export default {
     GetStarted,
     SmartContractAudit,
     AboutUs,
-    Menu
+    Menu,
+    CryptoAssetsRecovery,
+    BlockchainForensics,
+    NftProjects,
+    Tokenomics,
+    Dao
   },
   data () {
     return {

@@ -9,10 +9,16 @@
   .desktop {
     display: none !important;
   }
+  .margin {
+    margin: 0 20px;
+  }
 }
 @media only screen and (min-width: 761px) {
   .mobile {
     display: none !important;
+  }
+  .margin {
+    margin: 0 auto;
   }
 }
 @font-face {
@@ -43,6 +49,7 @@
   height: 1px;
 }
 * {
+  color: #0f2a63;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -50,6 +57,21 @@
 .background {
   background-image: url(./assets/background.png);
   background-size: cover;
+  background-repeat: no-repeat;
+}
+li {
+  list-style: none;
+  margin-left: 1.5em;
+}
+li::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  transform: translate(-1.5em, 0.1em);
+  background-image: url(./assets/arrow.png);
+  background-size: contain;
   background-repeat: no-repeat;
 }
 </style>

@@ -24,11 +24,6 @@
       <p class="alpina mobile" style="font-size: 20px; margin: 0 20px;">
         We utilize our expertise and passion to build blockchain based solutions to empower businesses and inventive entrepreneurs to automate operations, integrate and upgrade novel and legacy systems, or build from conception to delivery that drive  measurable results.
       </p>
-      <div style="border-radius: 50%; padding: 40px 10px; font-size: 20px; border: solid 1px #0f2a63; display: flex; justify-content: center; align-items: center; margin: 50px auto 0; max-width: 440px; text-align: center">
-        Let's build the smart contracts you need!
-      </div>
-      <div style="margin: auto; width: fit-content; height: 40px; width: 1px; background-color: #0f2a63"></div>
-      <div style="margin: auto; width: 20px; height: 20px; border-bottom: 1px solid #0f2a63; border-right: 1px solid #0f2a63; transform: rotate(45deg) translate(-17px, -16.7px)"></div>
     </div>
   </div>
 </template>

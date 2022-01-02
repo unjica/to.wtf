@@ -4,7 +4,7 @@
       <div>
         <img width="100" src="../assets/logo.png" alt="logo" class="image">
       </div>
-      <div>
+      <div style="display: flex; justify-content: center; align-items: center">
         <div v-if="!menu" @click="$emit('openMenu')" class="menu">
           <span class="line"></span>
           <span class="line2"></span>
@@ -27,11 +27,10 @@ export default {
 
 <style scoped>
 .image {
-  top: -15px;
-  position: absolute;
+  width: 70px;
+  margin: 10px 0;
 }
 .menu {
-  margin: 10px 0;
   width: 30px;
   height: 30px;
   border-radius: 20px;
