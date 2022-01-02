@@ -33,14 +33,14 @@
 import Nav from '@/components/Nav.vue'
 import FreeQuote from '@/components/FreeQuote.vue'
 import GetStarted from '@/components/GetStarted.vue'
-import SmartContractAudit from '@/components/SmartContractAudit.vue'
-import AboutUs from '@/components/AboutUs.vue'
+import SmartContractAudit from '@/components/sections/SmartContractAudit.vue'
+import AboutUs from '@/components/sections/AboutUs.vue'
 import Menu from '@/components/Menu.vue'
-import CryptoAssetsRecovery from '@/components/CryptoAssetsRecovery.vue'
-import BlockchainForensics from '@/components/BlockchainForensics.vue'
-import NftProjects from '@/components/NftProjects.vue'
-import Tokenomics from '@/components/Tokenomics.vue'
-import Dao from '@/components/Dao.vue'
+import CryptoAssetsRecovery from '@/components/sections/CryptoAssetsRecovery.vue'
+import BlockchainForensics from '@/components/sections/BlockchainForensics.vue'
+import NftProjects from '@/components/sections/NftProjects.vue'
+import Tokenomics from '@/components/sections/Tokenomics.vue'
+import Dao from '@/components/sections/Dao.vue'
 
 export default {
   name: 'Home',
