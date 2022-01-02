@@ -2,7 +2,7 @@
   <div style="background-color: #B3E6BE; z-index: 3; position: sticky; top: 0">
     <div style="padding: 0 10px; display: flex; justify-content: space-between; align-content: center;" class="container">
       <div>
-        <img :class="(scrollY < 0.00000001) ? 'image' : 'image scale'" src="../assets/logo.png" alt="logo">
+        <img :class="(scrollY < 0.00000001) ? 'image' : 'image scale'" src="../assets/logo.svg" alt="logo">
       </div>
       <div style="display: flex; justify-content: center; align-items: center">
         <div v-if="!menu" @click="$emit('openMenu')" class="menu">
