@@ -14,8 +14,7 @@
           </span>
           <h1 class="mobile" style="padding: 0 20px">DAO</h1>
           <div class="desktop">
-            <h1 style="padding-left: 20px;">LOREM IPSUM</h1>
-            <h1 style="padding: 0 50px 0 20px; position: relative; width: fit-content; background-color: #d9dbda; z-index: 1">DOLOR SIT AMET</h1>
+            <h1 style="margin-top: 40px; padding: 0 50px 0 20px; position: relative; width: fit-content; background-color: #d9dbda; z-index: 1">DAO</h1>
           </div>
         </div>
         <p class="alpina desktop" style="font-size: 20px; margin: 10px 0 10px 130px; max-width: 540px">
