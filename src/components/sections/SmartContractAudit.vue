@@ -5,7 +5,7 @@
       <div class=hr></div>
     </div>
     <div class="desktop" style="height: 30px"></div>
-    <div style="position: absolute; width: 100%; transform: translateY(20px)">
+    <div class="desktop" style="position: absolute; width: 100%; transform: translateY(20px)">
       <div class="container">
         <h4 style="width: 110px !important; direction: rtl">SMART CONTRACT AUDIT</h4>
       </div>
